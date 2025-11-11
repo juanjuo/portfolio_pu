@@ -1,22 +1,21 @@
-import adapter from "@sveltejs/adapter-static";
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+
+const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://svelte.dev/docs/kit/integrations
-	// for more information about preprocessors
-	preprocess: vitePreprocess(),
+  preprocess: vitePreprocess(),
 
-	kit: {
-		adapter: adapter({
-			fallback: '404.html'
-		}),
-		paths: {
-			//base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-			//base: <a href="{base}/portfolio_pu">Link</a>
-			base: process.env.NODE_ENV === "production" ? "/juanjuo.github.io/portfolio_pu" : "",
-		}
-	}
+  kit: {
+    adapter: adapter(),
+    paths: {
+      base: dev ? '' : '/portfolio_pu', // change for your project name
+    },
+    appDir: 'app'
+  }
 };
 
 export default config;
+
+
