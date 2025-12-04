@@ -24,25 +24,31 @@
 			Title and some more info. <a
 				class="link"
 				href="https://drive.google.com/file/d/1Va2jMdLojAUctrXoQ_l2I5Z4Jho3K0oX/view?usp=sharing"
-				target="_blank">Score Here</a>
+				target="_blank">Score Here</a
+			>
 		</p>
 	</div>
 
-	<div>
-	</div>
+	<div></div>
 </main>
-<footer>
-</footer>
+<footer></footer>
 
 <!-- TO DEPLOY ON GH PAGES USE = npm run deploy-->
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap');
 
+	:global(body) {
+		background-color: #121212;
+		margin: 0;
+		padding: 0;
+	}
+
 	header {
+		color: rgb(255, 255, 247);
 		font-family: 'Lora', serif;
 		font-weight: 500; /* value from 400 to 700 */
-		margin: 30px 0px 100px 30px;
+		margin: 50px 0px 85px 50px;
 	}
 
 	h1 {
@@ -65,19 +71,27 @@
 	}
 
 	.video_container {
-		margin: 10%;
+		margin: 0 10% 10% 10%;
+		max-width: 100%;
 	}
 
 	.description {
+		color: rgb(255, 255, 247);
 		text-align: center;
 		font-family: 'Lora', serif;
-		font-size: clamp(0.5rem, 1vw, 3rem); /* automatically resize with limits */
+		font-size: clamp(0.5rem, 2vw, 3rem); /* automatically resize with limits */
 		font-weight: 400;
 	}
 
 	.link {
+		color: rgb(255, 255, 247);
 		font-family: 'Lora', serif;
-		font-size: clamp(0.5rem, 1vw, 3rem); 
+		text-decoration: none; /* remove underline from links */
+		font-size: clamp(0.5rem, 2vw, 3rem);
 		font-weight: 400;
+	}
+
+	.link:hover {
+		color: #ffff00;
 	}
 </style>
