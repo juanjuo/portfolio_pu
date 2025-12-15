@@ -7,6 +7,7 @@
 	<h2>Composition Portfolio</h2>
 </header>
 <main>
+	<!-- VIDEO 1 -->
 	<div class="video_container">
 		<iframe
 			class="video"
@@ -20,6 +21,60 @@
 			allowfullscreen
 		>
 		</iframe>
+		<p class="description">
+			<b>La Campaña Admirable:</b> The Admirable Campaign is a string quartet I wrote based around
+			the historical events of a Venezuelan military campaign of 1813 known as the Admirable
+			Campaign. Which occurs right in the middle of the revolution for Venezuelan independence from
+			the Spanish monarchy. The piece is constituted by 7 movements, each of which is linked to one
+			important aspect of the revolution, and/or one important battle of the campaign, each movement
+			explores both the underlying structure and happenings of the battle, and the socio-political
+			context of that event.<a
+				class="link"
+				href="https://drive.google.com/file/d/1Va2jMdLojAUctrXoQ_l2I5Z4Jho3K0oX/view?usp=sharing"
+				target="_blank"><b>Score Here</b></a
+			>
+		</p>
+	</div>
+
+	<!-- VIDEO 2 -->
+	<div class="video_container">
+		<iframe
+			class="video"
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/i9ZQBw6s90A?si=JZ2RC1t7n7-efHI9"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		>
+		</iframe>
+		<h1>Title2</h1>
+		<p class="description">
+			Title and some more info. <a
+				class="link"
+				href="https://drive.google.com/file/d/1Va2jMdLojAUctrXoQ_l2I5Z4Jho3K0oX/view?usp=sharing"
+				target="_blank">Score Here</a
+			>
+		</p>
+	</div>
+
+	<!-- VIDEO 3 -->
+	<div class="video_container">
+		<iframe
+			class="video"
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/i9ZQBw6s90A?si=JZ2RC1t7n7-efHI9"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		>
+		</iframe>
+		<h1>Title3</h1>
 		<p class="description">
 			Title and some more info. <a
 				class="link"
