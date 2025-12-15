@@ -88,10 +88,15 @@
 </main>
 <footer></footer>
 
-<!-- TO DEPLOY ON GH PAGES USE = npm run deploy-->
+<!-- TO DEPLOY ON GH PAGES USE = npm run deploy -->
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
 	:global(body) {
 		background-color: #121212;
@@ -110,19 +115,22 @@
 		color: rgb(255, 255, 247);
 		font-family: 'Lora', serif;
 		font-weight: 500; /* value from 400 to 700 */
-		margin: 50px 0px 85px 50px;
+		margin: 50px 50px 85px 50px;
+
+    @media (max-width: 900px) {
+      h1, h2 {
+        text-align: center;
+      }
+    }
+
 	}
 
 	h1 {
 		font-size: 60px;
-		padding: 0px;
-		margin: 0px;
 	}
 
 	h2 {
 		font-size: 30px;
-		padding: 0px;
-		margin: 0px;
 	}
 
 	.video {
